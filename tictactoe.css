@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  background: -webkit-radial-gradient(gray 1%, black); 
+  background: -o-radial-gradient(gray 1%, black); 
+  background: -moz-radial-gradient(gray 1%, black); 
+  background: radial-gradient(gray 1%, black); 
+  background-size: cover;
+}
+ 
+.wrap {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+ 
+.game {
+  width: 515px;
+  height: 515px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+ 
+.trigger {
+  width: 167px;
+  height: 168px;
+  background-color: #FFF8E0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+ 
+.itsAnX {
+  background-color: #5CF64A;
+  pointer-events: none;
+}
+ 
+.itsAnO {
+  background-color: #F59CA9;
+  pointer-events: none;
+}
+ 
+.score {
+  width: 509px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+ 
+button {
+  width: 200px;
+  height: 30px;
+  border: 4px solid black;
+  background-color: #FFF8E0;
+  font-family: 'Verdana';
+  font-size: 1em;
+  font-style: bold;
+  margin: 0 20px;
+}
+ 
+.resetGame:hover {
+  background-color: #5CF64A;
+}
+ 
+.resetScore:hover {
+  background-color: #F59CA9
+}
+ 
+ 
+.keepingScore {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+ 
+.player1 {
+  font-family: 'Verdana';
+  font-size: 1em;
+  font-style: bold;
+  color: white;
+  padding-right: 30%;
+}
+ 
+.xScore {
+  font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 10px #5CF64A;
+  pointer-events: none;
+}
+ 
+.player2 {
+  font-family: 'Verdana';
+  font-size: 1em;
+  font-style: bold;
+  color: white;
+}
+ 
+.oScore {
+  font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 10px #F59CA9;
+  pointer-events:none;
+}
